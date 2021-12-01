@@ -66,8 +66,8 @@ namespace ApplitoolsTutorial
             eyes.Open(driver, "Demo App - csharp ufg", "Smoke Test", new Size(800, 600));
 
             // Navigate the browser to the "ACME" demo app. To see visual bugs after the first run, use the commented line below instead.
-            driver.Url = "https://demo.applitools.com/";
-            //driver.Url = "https://demo.applitools.com/index_v2.html";
+            //driver.Url = "https://demo.applitools.com/";
+            driver.Url = "https://demo.applitools.com/index_v2.html";
 
             // Visual checkpoint #1 - Check the login page. using the fluent API
             // https://applitools.com/docs/topics/sdk/the-eyes-sdk-check-fluent-api.html?Highlight=fluent%20api
